@@ -11,6 +11,9 @@ body {
 /* Sidebar navigation */
 
 .sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
     width: 220px;
     height: 100vh;
     background-color: #26222d;
@@ -102,4 +105,10 @@ footer a:hover {
     width: 80px;
     height: auto;
     margin: 10px 0;
+}
+
+/* Homepage introduction */
+#intro {
+    border-bottom: 1px solid #62424d;
+    padding-bottom: 15px;
 }
