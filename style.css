@@ -1,0 +1,76 @@
+
+/* General website styling */
+
+body {
+    margin: 0;
+    background-color: #171820;
+    color: #eeeeee;
+    font-family: Arial, sans-serif;
+}
+
+/* Sidebar navigation */
+
+.sidebar {
+    width: 220px;
+    height: 100vh;
+    background-color: #26222d;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sidebar h2 {
+    color: #f2dce1;
+    margin-bottom: 30px;
+}
+
+.sidebar a {
+    display: block;
+    color: #eeeeee;
+    text-decoration: none;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+
+.sidebar a:hover {
+    background-color: #71394c;
+}
+
+/* Main content */
+
+.content {
+    margin-left: 280px;
+    padding: 40px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 36px;
+}
+
+h2 {
+    color: #e3b0bd;
+}
+
+p {
+    line-height: 1.7;
+}
+
+/* Footer */
+
+footer {
+    margin-left: 280px;
+    padding: 20px 40px;
+    border-top: 1px solid #62424d;
+    color: #cccccc;
+}
+
+footer a {
+    color: #e3b0bd;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
