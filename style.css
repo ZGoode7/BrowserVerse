@@ -156,3 +156,13 @@ th {
     background-color: #62424d;
     color: #ffffff;
 }
+
+/* Homepage browser image */
+.homepage-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 25px auto;
+    border-radius: 8px;
+}
