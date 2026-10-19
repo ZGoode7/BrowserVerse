@@ -112,3 +112,11 @@ footer a:hover {
     border-bottom: 1px solid #62424d;
     padding-bottom: 15px;
 }
+/* Main content links */
+.content a {
+    color: #e3b0bd;
+}
+
+.content a:hover {
+    color: #ffffff;
+}
