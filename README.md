@@ -1,2 +1,2 @@
 # BrowserVerse
-IT3202 Web Development Class Project BrowserVerse
+IT3203 Web Development Class Project BrowserVerse
