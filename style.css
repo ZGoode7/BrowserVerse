@@ -138,3 +138,21 @@ footer a:hover {
         padding: 20px;
     }
 }
+
+/* Browser comparison table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #e3b0bd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #62424d;
+    color: #ffffff;
+}
