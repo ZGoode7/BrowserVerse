@@ -82,8 +82,5 @@ document.getElementById("resultDetails").textContent =
 }
 // Retake the quiz
 document.getElementById("resetQuiz").addEventListener("click", function() {
-    document.getElementById("browserQuiz").reset();
-    document.getElementById("resultDetails").textContent = "";
-    clearInterval(timerInterval);
-    startTimer();
+    window.location.reload();
 });
