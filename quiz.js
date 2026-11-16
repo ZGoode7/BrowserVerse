@@ -7,6 +7,7 @@ let startTime = Date.now();
 
  // Countdown timer function
 function startTimer() {
+     timeLeft = 600;
     timerInterval = setInterval(function() {
         timeLeft--;
 
@@ -79,3 +80,10 @@ if (answersQ9.length === correctAnswers.q9.length &&
 document.getElementById("resultDetails").textContent =
     `You scored ${score} out of 10!`;
 }
+// Retake the quiz
+document.getElementById("resetQuiz").addEventListener("click", function() {
+    document.getElementById("browserQuiz").reset();
+    document.getElementById("resultDetails").textContent = "";
+    clearInterval(timerInterval);
+    startTimer();
+});
