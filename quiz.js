@@ -69,7 +69,6 @@ function gradeQuiz() {
         score++;
     }
 });
-}
 // Check the multiple-answer question
 const selectedQ9 = Array.from(document.querySelectorAll('input[name="q9"]:checked'));
 const answersQ9 = selectedQ9.map(input => input.value);
