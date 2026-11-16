@@ -42,7 +42,13 @@
         Your results will be displayed after you finish.
     </p>
 
-<!-- BrowserVerse quiz form -->
+<!-- BrowserVerse quiz build -->
+    
+<!-- Quiz countdown timer -->
+<div class="quiz-timer">
+    <h2>Time Remaining: <span id="timer">10:00</span></h2>
+</div>
+
 <form id="browserQuiz">
 
 
@@ -121,7 +127,87 @@
     </label>
 </fieldset>
 
+<!-- Question 4: Browser history -->
+<fieldset>
+    <legend>Question 4: Which company introduced the Chrome web browser in 2008?</legend>
+
+    <label><input type="radio" name="q4" value="a">Microsoft</label>
+    <label><input type="radio" name="q4" value="b">Google</label>
+    <label><input type="radio" name="q4" value="c">Apple</label>
+    <label><input type="radio" name="q4" value="d">Mozilla</label>
+</fieldset>
+
+<!-- Question 5: Web technologies -->
+<fieldset>
+    <legend>Question 5: Which web technology controls the appearance of a webpage, including colors, fonts, and layout?</legend>
+
+    <label><input type="radio" name="q5" value="a">HTML</label>
+    <label><input type="radio" name="q5" value="b">JavaScript</label>
+    <label><input type="radio" name="q5" value="c">CSS</label>
+    <label><input type="radio" name="q5" value="d">HTTP</label>
+</fieldset>
+
+<!-- Question 6: Web technologies -->
+<fieldset>
+    <legend>Question 6: Which programming language allows webpages to respond to user interactions and display dynamic content?</legend>
+
+    <label><input type="radio" name="q6" value="a">HTML</label>
+    <label><input type="radio" name="q6" value="b">JavaScript</label>
+    <label><input type="radio" name="q6" value="c">CSS</label>
+    <label><input type="radio" name="q6" value="d">HTTP</label>
+</fieldset>
+
+<!-- Question 7: Browser history -->
+<fieldset>
+    <legend>Question 7: What was the name of the first web browser created by Tim Berners-Lee?</legend>
+
+    <label for="q7">Your Answer:</label>
+    <input type="text" id="q7" name="q7">
+
+</fieldset>
+
+<!-- Question 8: Browser history -->
+<fieldset>
+    <legend>Question 8: In what year was the Mosaic web browser introduced?</legend>
+
+    <label for="q8">Your Answer:</label>
+    <input type="text" id="q8" name="q8">
+
+</fieldset>
+
+<!-- Question 9: Rendering engines -->
+<fieldset>
+    <legend>Question 9: Which web browsers use the Blink rendering engine? Select all that apply.</legend>
+
+    <label><input type="checkbox" name="q9" value="a">Google Chrome</label>
+    <label><input type="checkbox" name="q9" value="b">Mozilla Firefox</label>
+    <label><input type="checkbox" name="q9" value="c">Microsoft Edge</label>
+    <label><input type="checkbox" name="q9" value="d">Apple Safari</label>
+</fieldset>
+
+<!-- Question 10: Browser history -->
+<fieldset>
+    <legend>Question 10: Which web browser was introduced in 1995 by Microsoft?</legend>
+
+    <label><input type="radio" name="q10" value="a">Google Chrome</label>
+    <label><input type="radio" name="q10" value="b">Mozilla Firefox</label>
+    <label><input type="radio" name="q10" value="c">Internet Explorer</label>
+    <label><input type="radio" name="q10" value="d">Safari</label>
+</fieldset>
+
+<!-- Quiz method -->
+<div class="quiz-buttons">
+    <button type="submit">Submit Quiz</button>
+    <button type="button" id="resetQuiz">Retake Quiz</button>
+</div>
+
 </form>
+
+<!-- Quiz results -->
+<section id="quizResults" aria-live="polite">
+    <h2>Quiz Results</h2>
+    <div id="resultDetails"></div>
+</section>
 
 </main>
 
