@@ -28,3 +28,8 @@ function startTimer() {
 
 // Start the quiz countdown
 startTimer();
+// Handle quiz submission
+document.getElementById("browserQuiz").addEventListener("submit", function(event) {
+    event.preventDefault();
+    clearInterval(timerInterval);
+});
